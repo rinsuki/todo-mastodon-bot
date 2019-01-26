@@ -1,4 +1,5 @@
 export const MASTODON_HOST = process.env.MASTODON_HOST!
+export const MASTODON_OWNER_TOKEN = process.env.MASTODON_OWNER_TOKEN!
 export const MASTODON_TOKEN = process.env.MASTODON_TOKEN!
 
 if (MASTODON_HOST == null) { throw new Error("MASTODON_HOST is required") }
